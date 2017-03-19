@@ -1,5 +1,6 @@
 package com.luckylhb.easymvc;
 
+import com.luckylhb.easyaop.helper.AopHelper;
 import com.luckylhb.easymvc.helper.BeanHelper;
 import com.luckylhb.easymvc.helper.ClassHelper;
 import com.luckylhb.easymvc.helper.ControllerHelper;
@@ -17,7 +18,8 @@ public class HelperLoader {
                 ClassHelper.class,
                 BeanHelper.class,
                 IocHelper.class,
-                ControllerHelper.class
+                ControllerHelper.class,
+                AopHelper.class
         };
 
         for (Class cls : classes) {
