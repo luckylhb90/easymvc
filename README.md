@@ -7,5 +7,6 @@
 
 [staticproxy](./doc/staticproxy.jpg)
 
-[开发javaweb mvc框架.png](./doc/开发javaweb mvc框架.png)
+
+[开发javaweb mvc框架.png](doc/javaweb_mvc.png)
 
